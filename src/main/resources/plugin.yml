@@ -1,0 +1,16 @@
+name: FlySpeed
+version: '1.0'
+main: wtf.wooly.fly_speed.FlySpeedPlugin
+api-version: '1.20'
+prefix: FlySpeed
+authors: [ Woolyenough ]
+description: Easily change your flying speed.
+website: https://modrinth.com/plugin/fly-speed
+
+commands:
+  fly-speed:
+    aliases:
+      - fs
+      - flyspeed
+    description: Set a fly speed for you or somebody else.
+    permission: fs.use
